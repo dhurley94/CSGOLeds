@@ -1,5 +1,7 @@
 # CSGOLeds-arduino
 
+[FORKED FROM osc3b](https://github.com/osc3b/CSGOLeds)
+
 > CSGO + Java + Arduino + Leds  
 
 ## Software Dependencies
@@ -28,7 +30,6 @@ You must also have a valid gamestate_integration_x.cfg file in your [Counter-Str
  }
 }
 ```
-
 
 The CSGO data is collected thanks to the Brekcel code. Link to your repository: https://github.com/Brekcel/CSGOState
 

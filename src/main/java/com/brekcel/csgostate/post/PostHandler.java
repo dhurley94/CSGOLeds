@@ -8,7 +8,7 @@ import com.brekcel.csgostate.JSON.Round;
 import com.brekcel.csgostate.JSON.State;
 import com.brekcel.csgostate.JSON.Weapon;
 
-// TODO: Change Strings to enums?
+// Change strings to enums?
 public interface PostHandler {
 	/**
 	 * Called when a new JsonResponse is received.
@@ -302,7 +302,7 @@ public interface PostHandler {
 	// END OF PlayerState
 
 	// Start of PlayerWeapons
-	// TODO: Rework Weapons. They suck. Hard. //TODONE. Kinda.
+	// Rework weapons
 	public void newWeapons(Weapon[] weapons);
 
 	public void weaponsChange(Weapon[] weapons);

@@ -19,11 +19,11 @@ import jssc.SerialPortException;
 public class CSGOVariables extends PostHandlerAdapter {
 	@Override
 	public void playerHealthChange(int health) { 
-    	System.out.println("AHORA LA VIDA DEL JUGADOR EEEEEEEEEEEEEEEEESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS: " + health);
+    	System.out.println("Now life of the player is - " + health);
     }
         
         public void playerMatchKillsChange(int kills) {
-            System.out.println("======================================\nNUEVA KILLLLL. Kills: " + kills + "\n==============================================");
+            System.out.println("======================================\nNew Kill!\n Kills - " + kills + "\n==============================================");
             try {
                 CSGOLeds.arduino.sendData("2");
             } catch (ArduinoException | SerialPortException ex) {

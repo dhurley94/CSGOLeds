@@ -158,7 +158,6 @@ public class Player {
 		this.matchStats = matchStats;
 	}
 	
-	//TODO: Create this method
 	//ALWAYS goes in order of: KNIFE, PRIMARY, SECONDARY, NADE0, NADE1, NADE2, NADE3, TASER, BOMB
 	public Weapon[] getWeaponsArr() {
 		Weapon[] weapons = new Weapon[9];

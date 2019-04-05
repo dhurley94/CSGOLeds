@@ -276,7 +276,6 @@ public class PostReceiver implements HttpHandler {
 									handle.playerRoundKillsHSChange(ns.getRoundKillhs());
 								}
 							}
-							// TODO: Weapon Logic
 							if (np.getWeapons() != null && (cp.getWeapons() == null || !cp.getWeapons().equals(np.getWeapons()))) {
 								handle.weaponsChange(np.getWeapons().values().toArray(new Weapon[np.getWeapons().size()]));
 							}
