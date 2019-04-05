@@ -14,17 +14,17 @@ You must also have a valid gamestate_integration_x.cfg file in your [Counter-Str
 * **CSGOState Test v0.1**
 ```json
 {
- "uri" "http://127.0.0.1:1338"
- "timeout" "5.0"
- "data"
+ "uri":"http://127.0.0.1:1338",
+ "timeout":"5.0",
+ "data": 
  {
-   "provider"            "1"
-   "map"                 "1"
-   "round"               "1"
-   "player_id"           "1"
-   "player_state"        "1"
-   "player_weapons"      "1"
-   "player_match_stats"  "1"
+   "provider":            "1",
+   "map":                 "1",
+   "round":               "1",
+   "player_id":           "1",
+   "player_state":        "1",
+   "player_weapons":      "1",
+   "player_match_stats":  "1"
  }
 }
 ```
